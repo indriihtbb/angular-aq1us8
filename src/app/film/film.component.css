@@ -2,6 +2,7 @@
   margin: 0 0 2em 0;
   list-style-type: none;
   padding: 0;
+  width: 550px;
 }
 .films li {
   cursor: pointer;
@@ -45,5 +46,5 @@
   text-decoration: none;
   position: relative;
   display: block;
-  width: 250px;
+  width: 350px;
 }
