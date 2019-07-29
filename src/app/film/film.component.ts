@@ -25,6 +25,7 @@ export class FilmComponent implements OnInit {
   }
 
   getFilm(){
-    this.films = this.filmService.getFilm();
+    this.filmService.getFilm()
+    .subscribe(films => this.films=films);
   }
 }
